@@ -35,5 +35,7 @@ models:
   dbt_poc_test:
     staging:
       +materialized: view
+      +schema: dw_stage
     marts:
       +materialized: table
+      +schema: dw_base
