@@ -2,8 +2,8 @@ version: 2
 
 sources:
   - name: jaffle_shop
-    database: dbt-raw-test
-    schema: jaffle_shop
+    project: dbt-raw-test
+    dataset: jaffle_shop
     tables:
       - name: customers
       - name: orders
