@@ -18,4 +18,4 @@ pivoted as (
     group by 1
 )
 
-select * from pivoted;
+select * from pivoted
